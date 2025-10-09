@@ -393,13 +393,18 @@ article .icon {
 }
 
 .project-title {
-  margin: 1rem;
+  margin: 0.5rem 0.75rem;
   color: black;
+  font-size: 1.25rem;
 }
 
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+  padding: 0.45rem 0.7rem;
+  width: 5.25rem;
+  font-size: 0.9rem;
+  border-radius: 1rem;
 }
 
 /* CONTACT */

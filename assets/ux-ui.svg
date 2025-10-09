@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" aria-labelledby="uxTitle uxDesc">
+  <title id="uxTitle">UI/UX Design preview</title>
+  <desc id="uxDesc">Stylized UI/UX project preview with device mockups and gradient background.</desc>
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#6C63FF" />
+      <stop offset="100%" stop-color="#3AB0FF" />
+    </linearGradient>
+    <filter id="f-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#FBFCFF" />
+
+  <!-- soft gradient panel -->
+  <rect x="48" y="48" width="1104" height="704" rx="20" fill="url(#g1)" opacity="0.08" />
+
+  <!-- Title -->
+  <g font-family="Poppins, Arial, sans-serif" fill="#0F1724">
+    <text x="110" y="180" font-size="56" font-weight="700">UI / UX Design</text>
+    <text x="110" y="230" font-size="20" fill="#475569">User flows · Wireframes · Prototypes</text>
+  </g>
+
+  <!-- Device mockups -->
+  <g transform="translate(110,280)">
+    <!-- phone -->
+    <rect x="0" y="0" width="140" height="300" rx="22" fill="#fff" stroke="#E6EEF9" filter="url(#f-shadow)" />
+    <rect x="14" y="20" width="112" height="40" rx="8" fill="#6C63FF" opacity="0.95" />
+    <rect x="14" y="76" width="112" height="12" rx="6" fill="#EEF2FF" />
+    <rect x="14" y="100" width="112" height="12" rx="6" fill="#F7FAFF" />
+
+    <!-- tablet -->
+    <rect x="176" y="-8" width="320" height="216" rx="14" fill="#fff" stroke="#E6EEF9" filter="url(#f-shadow)" />
+    <rect x="196" y="12" width="280" height="36" rx="8" fill="#3AB0FF" opacity="0.95" />
+    <rect x="196" y="62" width="120" height="12" rx="6" fill="#EEF6FF" />
+    <rect x="196" y="86" width="160" height="12" rx="6" fill="#F7FBFF" />
+
+    <!-- desktop preview -->
+    <rect x="516" y="16" width="460" height="240" rx="12" fill="#fff" stroke="#E6EEF9" filter="url(#f-shadow)" />
+    <rect x="540" y="38" width="160" height="18" rx="8" fill="#EAF6FF" />
+    <rect x="540" y="64" width="360" height="14" rx="8" fill="#F8FAFF" />
+  </g>
+
+  <!-- accent shapes -->
+  <circle cx="980" cy="140" r="48" fill="#3AB0FF" opacity="0.12" />
+  <circle cx="1020" cy="200" r="22" fill="#6C63FF" opacity="0.14" />
+</svg>
